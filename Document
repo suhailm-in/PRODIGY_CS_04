@@ -1,0 +1,20 @@
+Simple Keylogger :
+Create a basic keylogger program that records and logs keystrokes.
+Focus on logging the keys pressed and saving them to a file.
+Note: Ethical considerations and permissions are crucial for projects involving keyloggers.
+
+
+
+
+RUN:
+Install pynput Using Pip: Run the following command to install the library:
+pip install pynput
+
+Verify Installation: After installation, you can verify if pynput is installed by running:
+pip show pynput
+
+
+STOP:
+To stop the keylogger gracefully,
+you can use the on_release function to listen for a specific key press, such as the 'esc' key.
+This allows you to exit the keylogger when that key is pressed.
