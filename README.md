@@ -1,4 +1,4 @@
-# Keylogger Script
+# Keylogger
 
 This Python script is a basic keylogger that records keystrokes and logs them to a file named `keylog.txt` in the user's home directory. The script is designed for educational purposes and ethical use only. Unauthorized use of this script may violate privacy laws.
 
@@ -33,9 +33,6 @@ cd PRODIGY_CS_04
 ## Usage
 
 1. Run the script using Python:
-
-If `pynput` is not installed, the script will automatically install it:
-
 ```bash
 python keylogger.py
 ```
